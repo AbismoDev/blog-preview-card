@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.card-container{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    max-width: 380px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px black;
+    border: 1px solid black;
+    transition: .3s;
+}
+
+.card-container:hover{    
+    box-shadow: 15px 15px black;
+}
+
+.img-article{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tag-learn{
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.card-content h1{
+    transition: .3s;
+}
+
+.card-content h1:hover{
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+}
+
+.card-content p{
+    margin-top: 13px;
+    font-size: 15px;
+    color: hsl(0, 0%, 50%);
+    line-height: 25px;
+}
+
+.card-author{
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    gap: 8px;
+}
+
+.card-author img{
+    width: 35px;
+}
+
+.card-author p{
+    font-weight: bold;
+    font-size: 15px;
+}
